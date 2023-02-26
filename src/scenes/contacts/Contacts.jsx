@@ -2,14 +2,14 @@ import React from "react";
 import { Box } from "@mui/material";
 import Header from "../../components/Header";
 
-const Dashboard = () => {
+const Contacts = () => {
     return (
         <Box m="20px">
             <Box display="flex" justifyContent="space-between" alignItems="center">
-                <Header title="Dashboard" subtitle="Welcome to your dashboard" />
+                <Header title="Contacts" subtitle="Welcome to your Contacts" />
             </Box>
         </Box>
     );
 };
 
-export default Dashboard;
+export default Contacts;
