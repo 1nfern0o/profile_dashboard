@@ -42,7 +42,7 @@ const Calendar = () => {
             <Box display="flex" justifyContent="space-between">
                 {/* CALENDAR SIDEBAR */}
                 <Box flex="1 1 20%" backgroundColor={colors.primary[400]} p="15px" borderRadius="4px">
-                    <Typography variant="h5">Events</Typography>
+                    <Typography variant="h5" color={colors.grey[100]}>Events</Typography>
                     <List>
                         {currentEvents.map((event) => {
                             return (
